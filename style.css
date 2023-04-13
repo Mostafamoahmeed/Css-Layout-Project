@@ -1,0 +1,389 @@
+*{
+  font-family:  Helvetica, Arial, sans-serif;
+}
+
+.container {
+  padding: 0 190px;
+}
+
+nav {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.nav-logo img{
+  width: 250px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-list .list-item a{
+  color: #ababab;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-list .list-item:hover a{
+  color: #00c3a5;
+  cursor: pointer;
+}
+
+.nav-list .list-item .active{
+  color: #00c3a5;
+}
+
+.top-section {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.top-section header img{
+  width: 40px;
+}
+
+.top-section header h1{
+  font-size: 1.5rem;
+  color: #00b39b;
+  font-weight: 200;
+}
+
+.top-section .top-text {
+  display: flex;
+  color: #747474;
+  text-align: left;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.cards-collection {
+  display: flex;
+  gap: 10px;
+  margin-top: 65px;
+}
+
+.cards-collection select{
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.card-part {
+  background-color: #00ccb1;
+  color: white;
+  padding: 25px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+.card-part:nth-child(2){
+  background-color: #3d83df;
+}
+
+.card-part:nth-child(3){
+  background-color: #1b2734;
+}
+
+.card-part .card-info {
+  margin-bottom: 80px;
+}
+
+.card-part .card-info :is(h2 , p){
+margin: 0;
+}
+
+.section3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 div {
+  width: 60%;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.section3title {
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.3px;
+  justify-content: center;
+  
+}
+
+.section3logos {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  
+}
+
+.section3logos img {
+  width: 6rem;
+  object-fit: contain;
+}
+
+
+.part4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  background-color: #d0faf4;
+  padding-left: 50px;
+}
+
+.part4header{
+  font-family: Work Sans, Arial, sans-serif;
+  padding-top: 60px;
+}
+
+.part4header h2{
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-left: 50px;
+}
+
+.part4header p{
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+}
+
+.first2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px
+
+
+}
+
+.second2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.allparts{
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+.allparts h3{
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.allparts p{
+  font-size: 0.8125em;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+
+.leader {
+  margin-bottom: 20px;
+}
+
+.appointments{
+  margin-bottom: 20px;
+}
+
+.leader,
+.patients,
+.appointments,
+.doctors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 220px;
+  border-radius: 2px;
+}
+
+.leader img,
+.patients img,
+.appointments img,
+.doctors img {
+  width: 25px;
+  height: auto;
+}
+
+.allparts div{
+  height: 500px;
+  width: 250px;
+  margin-left: 30px;
+}
+
+.part5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  width: 100%;
+}
+
+.part5 h3 {
+  font-size: 2.1428571429em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.part5 p{
+  margin: 1.6em 0;
+  line-height: 1.7142857143;
+  text-align: center;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+
+.country-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  margin-top: 70px;
+}
+
+.country-cards div:hover{
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.c-card p{
+  font-size: medium;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+.c-card button{
+  margin-top: 0.5cm;
+  display: flex;
+  gap: 2cm;
+  justify-content: center;
+  background: #3d83df;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Roboto, Arial, sans-serif;
+  margin-right: 20px;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.button {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  
+}
+
+.part6 h1{
+  font-size: 2.1428571429em;
+  color: #333;
+  margin-bottom: 0.75em;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+
+.part6 button{
+  margin-left: 120px;
+  background-color: #3d83df;
+  color: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  border: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+}
+
+.part6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.end {
+  
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  font-family: roboto, arial, sans-serif;
+  color: #ababab;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.end p, a{
+  align-items: center;
+}
+
+.end p{
+  align-items: center;
+}
+
+.bottom-text{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  font-family: roboto, arial, sans-serif;
+  color: #ababab;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 80px;
+  margin-top: -10px;
+}
+
+footer p{
+  padding-top: 20px;
+}
